@@ -1,1 +1,2 @@
-﻿alert("Disable Organization Folder");
+﻿console.log("Disable Organization Folder");
+console.log("******************************************************************************");
