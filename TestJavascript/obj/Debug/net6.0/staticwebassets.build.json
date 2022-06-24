@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0wQ7Yut2eFF5w7hoQqqKN7o0RvDROzYSRZh6MGuJ5AM=",
+  "Hash": "JQ8mBwZfeHqFhnICDN7R2EarwkVzkjXr/uPMC/RAwe4=",
   "Source": "TestJavascript",
   "BasePath": "_content/TestJavascript",
   "Mode": "Default",
@@ -901,6 +901,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+      "Identity": "C:\\Users\\fadin\\source\\repos\\TestJavascript\\TestJavascript\\wwwroot\\lib\\DIsableOrganizationFolder.js",
+      "SourceId": "TestJavascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fadin\\source\\repos\\TestJavascript\\TestJavascript\\wwwroot\\",
+      "BasePath": "_content/TestJavascript",
+      "RelativePath": "lib/DIsableOrganizationFolder.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\DIsableOrganizationFolder.js"
+    },
+    {
       "Identity": "C:\\Users\\fadin\\source\\repos\\TestJavascript\\TestJavascript\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "TestJavascript",
       "SourceType": "Discovered",
@@ -1103,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\fadin\\source\\repos\\TestJavascript\\TestJavascript\\wwwroot\\testj.js",
+      "SourceId": "TestJavascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fadin\\source\\repos\\TestJavascript\\TestJavascript\\wwwroot\\",
+      "BasePath": "_content/TestJavascript",
+      "RelativePath": "testj.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\testj.js"
     }
   ]
 }
