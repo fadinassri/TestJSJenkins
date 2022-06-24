@@ -1,8 +1,15 @@
-﻿console.log("Disable Organization Folder");
-console.log("******************************************************************************");
+﻿console.log("Disable Organization Folder Job Type");
 
-var divsToHide = document.getElementsByClassName("jenkins_branch_OrganizationFolder"); //divsToHide is an array
-for (var i = 0; i < divsToHide.length; i++) {
-    divsToHide[i].style.visibility = "hidden"; // or
-    divsToHide[i].style.display = "none"; // depending on what you're doing
+var refreshIntervalId = setInterval(removeOrganizationFolder, 500);
+
+function removeOrganizationFolder() {
+    var divsToHide = document.getElementsByClassName("jenkins_branch_OrganizationFolder"); //divsToHide is an array
+    console.log("divsToHide.length jenkins_branch_OrganizationFolder found", divsToHide.length);
+    if (divsToHide.length > 0) {
+        divsToHide[0].style.visibility = "hidden"; // or
+        divsToHide[0].style.display = "none"; // depending on what you're doing
+        clearInterval(refreshIntervalId);
+
+    }
 }
+
